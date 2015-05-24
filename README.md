@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Install WebStorm
 Install Nodejs
 npm install mocha -g
