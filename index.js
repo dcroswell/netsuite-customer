@@ -1,3 +1,6 @@
+/**
+ * Created by dcroswell on 25/05/2015.
+ */
 var NC = require('./libs/newcustomer');
 var C = require('./models/customer');
 
