@@ -6,8 +6,8 @@ var C = require('./models/customer');
 
 //create a customer
 var c = C({email:'don@greenbilling.com'});
-//console.log(c);
+console.log(c);
 
 //pass it in as new
-var nc = NC.NewCustomer(c);
-console.log(nc);
+//var nc = NC.NewCustomer(c);
+//console.log(nc);

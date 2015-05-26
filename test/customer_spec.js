@@ -1,6 +1,7 @@
 /**
  * Created by Don on 24/05/2015.
  */
+var assert = require ("assert");
 var should = require("should");
 var Customer = require("../models/customer");
 
@@ -10,19 +11,18 @@ describe("Customer", function() {
         var customer = {};
 
         before(function () {
-            customer = new Customer({email : "don@greenbilling.com",internalid: 0, sessionToken: "abc123ABC123"});
+            customer = new Customer({email : "don@greenbilling.com"});
         });
 
-        it("email is don@greenbilling.com", function(){
+        //happy path
+        it("customer has an email of don@greenbilling.com", function(){
             customer.email.should.equal("don@greenbilling.com");
         });
-        it("has an internal id", function() {
-            customer.internalid.should.equal(0);
-        });
 
-        it("has a sessionToken", function() {
-            customer.sessionToken.should.be.defined;
-        })
+        //no email on customer
+        it("an empty or null email", function() {
+
+        });
     });
 
 });

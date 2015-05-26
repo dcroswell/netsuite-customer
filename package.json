@@ -4,13 +4,15 @@
   "author": "Don Croswell",
   "description": "The Cracka customer object in Netsuite.",
   "dependencies": {
-
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1"
   },
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-watch": "^0.6.1",
     "should": "^6.0.3",
+    "assert": "^1.3.0",
     "mocha": "^2.2.5"
   }
 }

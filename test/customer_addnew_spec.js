@@ -7,7 +7,7 @@ var NC = require("../libs/newcustomer");
 
 describe("NewCustomer", function() {
 
-    describe("defaults", function() {
+/*    describe("defaults", function() {
         var c = C({email: "don@greenbilling.com"});
 
         before(function() {
@@ -25,11 +25,11 @@ describe("NewCustomer", function() {
     describe("an empty email or null email", function() {
         it("is not successful");
         it("tells user that email is required");
-    })
+    });
 
     describe("email already exists", function() {
         it("is not successful");
         it("tells user that email is already used");
-    })
+    });*/
 
 });
